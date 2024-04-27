@@ -1,0 +1,231 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100px;
+    font-style: normal;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 15%;
+    height: 85px;
+}
+
+.header .logo {
+    cursor: pointer;
+}
+
+.header .logo img {
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    border-radius: 50%;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+.header .nav-items li{
+    display: inline-block;
+    padding: 15px;
+}
+
+.header .nav-items li a {
+    font-size: 100;
+    color: red;
+    text-shadow: orange 1px 1px;
+    font-size: 25px;
+}
+
+.header .nav-items li a:hover {
+    transform: scale(1.1);
+    color: aqua;
+    text-shadow: blue 1px 1px;
+}
+
+footer {
+    background: black;
+    height: auto;
+    width: 100vw;
+    padding: 40px;
+    color: white;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-container h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-container p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+
+.footer-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    margin: 1rem 0 3rem 0;
+    list-style: none;
+}
+
+.footer-bar li {
+    margin: 0 10px
+}
+
+.footer-bar li a {
+    color: red;
+    text-shadow: orange 1px 1px;
+}
+
+.footer-bar li a:hover {
+    transform: scale(1.1);
+
+    color: aqua;
+    text-shadow: blue 1px 1px;
+}
+
+/*Contenido principal*/
+
+.section-container {
+    background-color: #ff7b00;
+}
+
+.works {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.text {
+    padding: 20px;
+    font-size: 20px;
+    height: 400px;
+    color: black;
+    text-transform: uppercase; 
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+
+.works img {
+    width: 700px;
+    height: 400px;
+}
+
+.works div {
+    justify-content: center;
+}
+
+/*Nosotros*/
+
+.seccion {
+    background-color: #e66f07;
+    color: black;
+    padding: 40px;
+    height: 50vw;
+    text-align: center;
+}
+
+.about p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.about h1 {
+    font-size: 50px;
+}
+
+
+
+
+
+
+
+
+/*Registro*/
+
+form {
+    position:relative;
+    padding: 200px 40%;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0.5);
+    border-radius: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+h2 {
+    color: red;
+    font-size: 35px;
+}
+
+label {
+    color: #e66f07;
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+input, textarea{
+    padding: 17px 25px;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 2px solid grey;
+    color: black;
+}
+
+input::placeholder, textarea::placeholder {
+    color: red;
+}
+
+.boton {
+    font-size: 20px;
+    color: #e66f07;
+    border-radius: 25px;
+    background-color: #750202;
+    cursor: pointer;
+}
+
