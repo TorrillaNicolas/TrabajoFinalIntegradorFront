@@ -4,58 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabajo integrador</title>
-    <link rel="stylesheet" href="styles/estilos.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&family=Jersey+25&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/estilos.css">
 </head>
-<body>
-    <header>
-        <div class="logo">
-            <img src="./images/Logo.jpg" alt="logo">
-            <h2 class="nombre-empresa">SRV Servicio y reparacion vial</h2>
-        </div>
-        <nav>
-            <a href="./index.html" class="nav-link">Home</a>
-            <a href="./About.html" class="nav-link">About</a>
-            <a href="./Login.html" class="nav-link">LogIn</a>
-            <a href="./Register.html" class="nav-link">Registrarse</a>
-            <button id="logOut">Logout</button>
-        </nav>
-    </header>
-
-    <section class="section-container">
-        <div class="works">
-            <div class="text">
-                <h3>Detalles de trabajo</h3>
-                <ul>
-                    <li>Mecanica en general, reparacion total o parcial de motores diesel</li>
-                    <li>Electricidad, reparaciones totales o parciales de cualquier tipo de marca</li>
-                    <li>Trabajos de torneria</li>
-                    <li>Hidraulica, reparacion de cilindros, bancos de valvula, paquetes de mando, sistemas de direccion, bombas y motores hidraulicos, etc</li>
-                    <li>Transmisiones hidraulicas, reparaciones parciales o totales</li>
-                </ul>
+<body> 
+    <div class="form-container">
+        <h1>Login</h1>
+        <form id="loginForm">
+            <div class="txt">
+                <label>Usuario</label>
+                <input type="text" id="username" required autofocus>
             </div>
-            <div>
-                <img src="./images/trabajos.png" alt="IMAGEN RANDOM" class="maquinas">
+            <div class="txt">
+                <label>password</label>
+                <input type="password" id="password" required>
             </div>
-        </div>
-    </section>
-
-
-    <footer class="footer-content">
-        <h3>SRV Servicio y reparacio vial</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est iusto dolorem sint repudiandae porro, nostrum voluptatem, libero quasi quidem nobis sed! Nesciunt odit placeat in repudiandae ipsa tempore adipisci minima.</p>
-        <ul class="socials">
-            <li><a href="./index.html">Home</a></li>
-            <li><a href="./About.html">About</a></li>
-            <li><a href="./Login.html">Login</a></li>
-            <li><a href="./Register.html">Register</a></li>
-        </ul>
-        <div class="footer-bottom">
-            <p>Copyright &copy;2024 SRV Servicio y reparacion vial.</p>
-        </div>
-    </footer>
-    <script src="./js/index.js"></script>
+                <input type="submit" value="Ingresar">
+            <div class="signUp">
+                <p>No tienes una cuenta? <a href="register.html">Registrate</a></p>
+            </div>
+        </form>
+    </div>
+    <script src="./js/login.js"></script>
 </body>
 </html>
