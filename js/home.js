@@ -1,3 +1,4 @@
+
 const user = JSON.parse(localStorage.getItem("loginSucces")) || false
 if(!user){
     window.location.href = "index.html"
