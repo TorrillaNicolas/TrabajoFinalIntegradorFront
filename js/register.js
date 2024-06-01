@@ -12,6 +12,6 @@ registerForm.addEventListener("submit", (e)=>{
     Users.push({username, password})
     localStorage.setItem("users", JSON.stringify(Users))
     alert("Registro exitoso!")
-    window.location.href = "./index.html"
+    window.location.href = "index.html"
 
 })
